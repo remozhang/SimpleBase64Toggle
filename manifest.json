@@ -2,11 +2,12 @@
     "name": "Getting Start Extension",
     "description": "Build An Extension",
     "version": "1.0",
-    "permissions": ["declarativeContent", "storage"],
+    "permissions": ["declarativeContent", "activeTab", "storage"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
     },
+    "options_page": "options.html",
     "page_action": {
         "default_popup": "popup.html",
         "default_icon": {
